@@ -21,7 +21,8 @@ header {
 }
 
 .header {
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     margin: auto;
     height: 90px;
 }
@@ -55,6 +56,15 @@ h5 {
     margin-right: 15px;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 section {
     margin-bottom: 40px;
     margin-top: 40px;
@@ -67,15 +77,15 @@ section {
     border-bottom-style: solid;
     border-bottom-color: #dddddd;
     border-bottom-width: 3px;
-    width: 900px;
+    width: 898px;
     padding-left: 0px;
 }
 
 .content {
     clear: both;
     background-color: #ffffff;
-    overflow: auto;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     margin: auto;
     border: solid;
     border-color: #cccccc;
@@ -84,20 +94,40 @@ section {
 }
 
 .portfolio {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px 0px 0px;
+    position: relative;
+}
+.completedprojects {
     clear: both;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 form {
     padding-top: 20px;
 }
 
+#message {
+    height: 200px;
+}
+
+#submitbutton {
+    width: 100px;
+}
+
 input {
     width: 100%;
-    border-color:  #cccccc;
+    border-color:
     padding: 0px;
 }
 
@@ -107,7 +137,7 @@ p {
     margin: 0px;
 }
 
-img {
+#profilepicture {
     float: left;
     padding-right: 20px;
 }
