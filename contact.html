@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Matthew Geddes | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="header">
-                <h1>Matthew Geddes</h1>
+                <h1><a href="index.html" id="matthewgeddes">Matt Geddes</a></h1>
                 <h5>
                     <a href="contact.html">Contact</a>
                 </h5>
@@ -25,7 +26,7 @@
             <div class="content">
                 <h1 class="bodyh1">Contact</h1>
                     <!-- need to do something with "/action_page.php" -->
-                <div class="clearfix">
+                <div class="subcontent">
                     <form action="/action_page.php">
                         Name:<br>
                         <input type="text" name="Name" value="Your Name">
@@ -38,7 +39,7 @@
                         <textarea>Type your message here...</textarea>
                         <br><br>
                         <!-- Maybe something needs to be done about submit button -->
-                        <input id="submitbutton" type="submit" value="Submit">
+                        <button id="submitbutton">Submit</button>
                     </form>
                 </div>
             </div>
@@ -46,7 +47,7 @@
         <div class="push"></div>
     </div>
     <footer class="footer">
-        copyright
+        <p id="copyright">Copyright</p>
     </footer>
 </body>
 </HTML>
