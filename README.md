@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Recommended Assignment - That Portfolio Though
+# Basic-Portfolio-Practice project
+Portfolio 
